@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="color-scheme" content="light dark">
+    <title>Video Hub - Premium Video Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader Section -->
+    <div class="preloader">
+        <img src="./logo1.webp" alt="Logo" class="logo">
+    </div>
+
+    <!-- Header with Search -->
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <h1>Video Hub</h1>
+            </div>
+            
+            <div class="header-right">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search videos...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <button class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#viral"><i class="fas fa-fire"></i> Most Viral</a></li>
+                <li><a href="#trending"><i class="fas fa-chart-line"></i> Most Viewed</a></li>
+                <li><a href="#premium"><i class="fas fa-crown"></i> Premium</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> My Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Banner -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Discover Amazing Videos</h1>
+                <p>Watch, share, and explore thousands of videos from creators around the world</p>
+                <button class="hero-btn">Start Watching</button>
+            </div>
+        </section>
+
+        <!-- Most Viral Section -->
+        <section id="viral" class="viral-section">
+            <div class="container">
+                <h2>Most Viral <span class="section-subtitle">What's breaking the internet right now</span></h2>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="duration">4:15</div>
+                            <div class="viral-badge">🔥 VIRAL</div>
+                            <iframe width="100%" height="150" src="./video1.mp4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Dog Saves Child from Oncoming Car</h3>
+                            <p class="channel">PetHeroes</p>
+                            <div class="stats">
+                                <span class="views">5.7M views</span>
+                                <span class="dot">•</span>
+                                <span class="date">2 days ago</span>
+                            </div>
+                            <div class="ratings">
+                                <span class="likes">👍 432K</span>
+                                <span class="shares">↗️ 85K shares</span>
+                            </div>
+                            <p class="description">This heroic dog sensed danger and pulled a child to safety moments before a car sped by. The incredible moment was captured on a neighbor's security camera.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="duration">3:28</div>
+                            <div class="viral-badge">🔥 VIRAL</div>
+                            <iframe width="100%" height="150" src="./video2.mp4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Basketball Player Makes Impossible Shot</h3>
+                            <p class="channel">SportsHighlights</p>
+                            <div class="stats">
+                                <span class="views">4.2M views</span>
+                                <span class="dot">•</span>
+                                <span class="date">1 week ago</span>
+                            </div>
+                            <div class="ratings">
+                                <span class="likes">👍 385K</span>
+                                <span class="shares">↗️ 72K shares</span>
+                            </div>
+                            <p class="description">Watch this college basketball player make an incredible full-court shot with less than a second left on the clock to win the championship game.</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="duration">5:42</div>
+                            <div class="viral-badge">🔥 VIRAL</div>
+                            <iframe width="100%" height="150" src="./video3.mp4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Flash Mob Surprises Mall Shoppers</h3>
+                            <p class="channel">DanceWorld</p>
+                            <div class="stats">
+                                <span class="views">3.8M views</span>
+                                <span class="dot">•</span>
+                                <span class="date">4 days ago</span>
+                            </div>
+                            <div class="ratings">
+                                <span class="likes">👍 290K</span>
+                                <span class="shares">↗️ 58K shares</span>
+                            </div>
+                            <p class="description">Over 100 dancers surprised shoppers with this perfectly choreographed routine at the Grand Central Mall. Watch their amazing performance!</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Hidden Videos -->
+                    <div class="video-card hidden">
+                        <div class="video-thumbnail">
+                            <div class="duration">2:55</div>
+                            <div class="viral-badge">🔥 VIRAL</div>
+                            <iframe width="100%" height="150" src="./v4.mp4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Grandma's Reaction to VR Rollercoaster</h3>
+                            <p class="channel">FunnyMoments</p>
+                            <div class="stats">
+                                <span class="views">2.9M views</span>
+                                <span class="dot">•</span>
+                                <span class="date">1 week ago</span>
+                            </div>
+                            <div class="ratings">
+                                <span class="likes">👍 215K</span>
+                                <span class="shares">↗️ 45K shares</span>
+                            </div>
+                            <p class="description">This grandmother's hilarious reaction to trying a virtual reality rollercoaster for the first time has everyone laughing. Wait for the scream at 1:45!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="load-more">Load More Viral Videos</button>
+            </div>
+        </section>
+
+        <!-- Most Viewed Section -->
+        <section id="trending" class="trending-section">
+            <div class="container">
+                <h2>Most Viewed <span class="section-subtitle">Top performers this month</span></h2>
+                <div class="filter-tabs">
+                    <button class="filter-btn active">All Time</button>
+                    <button class="filter-btn">This Week</button>
+                    <button class="filter-btn">Today</button>
+                </div>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="duration">8:42</div>
+                            <div class="rank-badge">1</div>
+                            <iframe width="100%" height="150" src="./v5.mp4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Ultimate Chocolate Cake Recipe</h3>
+                            <p class="channel">BakingMasters</p>
+                            <div class="stats">
+                                <span class="views">18.3M views</span>
+                                <span class="dot">•</span>
+                                <span class="date">3 months ago</span>
+                            </div>
+                            <div class="ratings">
+                                <span class="likes">👍 1.2M</span>
+                                <span class="comments">💬 56K</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">Cooking</span>
+                                <span class="tag">Dessert</span>
+                            </div>
+                            <p class="description">The most-viewed recipe video of all time! Learn how to make this moist, rich chocolate cake that has become an internet sensation.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="duration">15:24</div>
+                            <div class="rank-badge">2</div>
+                            <iframe width="100%" height="150" src="./v6.mp4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">House Tour: $500M Mega Mansion</h3>
+                            <p class="channel">LuxuryLifestyles</p>
+                            <div class="stats">
+                                <span class="views">14.7M views</span>
+                                <span class="dot">•</span>
+                                <span class="date">7 months ago</span>
+                            </div>
+                            <div class="ratings">
+                                <span class="likes">👍 892K</span>
+                                <span class="comments">💬 104K</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">Luxury</span>
+                                <span class="tag">Real Estate</span>
+                            </div>
+                            <p class="description">Step inside the most expensive home ever built in America. This 105,000 sq ft mansion features 21 bedrooms, 42 bathrooms, 7 pools, and a private nightclub.</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="duration">10:15</div>
+                            <div class="rank-badge">3</div>
+                            <iframe width="100%" height="150" src="./v7.mp4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">10 Life Hacks That Will Change Your Life</h3>
+                            <p class="channel">LifeHackers</p>
+                            <div class="stats">
+                                <span class="views">12.4M views</span>
+                                <span class="dot">•</span>
+                                <span class="date">5 months ago</span>
+                            </div>
+                            <div class="ratings">
+                                <span class="likes">👍 845K</span>
+                                <span class="comments">💬 78K</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">Life Hacks</span>
+                                <span class="tag">DIY</span>
+                            </div>
+                            <p class="description">These genius life hacks will solve everyday problems you didn't know had simple solutions. The hack at 7:32 will blow your mind!</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Hidden Videos -->
+                    <div class="video-card hidden">
+                        <div class="video-thumbnail">
+                            <div class="duration">12:38</div>
+                            <div class="rank-badge">4</div>
+                            <iframe width="100%" height="150" src="./v8.mp4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Building a Lake House in 10 Days</h3>
+                            <p class="channel">MasterBuilders</p>
+                            <div class="stats">
+                                <span class="views">9.8M views</span>
+                                <span class="dot">•</span>
+                                <span class="date">8 months ago</span>
+                            </div>
+                            <div class="ratings">
+                                <span class="likes">👍 723K</span>
+                                <span class="comments">💬 42K</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">Construction</span>
+                                <span class="tag">DIY</span>
+                            </div>
+                            <p class="description">Watch this team of professional builders construct an entire lake house from foundation to finish in just 10 days. Time-lapse construction has never been this satisfying!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="load-more">Load More Popular Videos</button>
+            </div>
+        </section>
+
+        <!-- Premium Content Section -->
+        <section id="premium" class="premium-section">
+            <div class="container">
+                <h2>Premium Content <span class="section-subtitle">Exclusive videos for members</span></h2>
+                <div class="premium-banner">
+                    <h3>Upgrade to Premium for exclusive content</h3>
+                    <p>Unlock thousands of high-quality videos with no ads</p>
+                    <button class="premium-btn">Join Premium</button>
+                </div>
+                <div class="video-grid">
+                    <div class="video-card premium">
+                        <div class="video-thumbnail">
+                            <div class="duration">22:15</div>
+                            <iframe width="100%" height="150" src="./v9.mp4" frameborder="0" allowfullscreen></iframe>
+                            <span class="lock"><i class="fas fa-lock"></i> Premium</span>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Advanced Video Editing Masterclass</h3>
+                            <p class="channel">ProEditors</p>
+                            <div class="stats">
+                                <span class="views">Premium Exclusive</span>
+                                <span class="dot">•</span>
+                                <span class="date">New Release</span>
+                            </div>
+                            <div class="premium-features">
+                                <span class="feature">✓ 4K Quality</span>
+                                <span class="feature">✓ Downloadable</span>
+                            </div>
+                            <p class="description">Learn professional video editing techniques from Hollywood experts. This in-depth tutorial covers advanced color grading, special effects, and more.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="video-card premium">
+                        <div class="video-thumbnail">
+                            <div class="duration">42:30</div>
+                            <iframe width="100%" height="150" src="./v10.mp4" frameborder="0" allowfullscreen></iframe>
+                            <span class="lock"><i class="fas fa-lock"></i> Premium</span>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">The Secrets of Success: CEO Interview Series</h3>
+                            <p class="channel">BusinessInsiders</p>
+                            <div class="stats">
+                                <span class="views">Premium Exclusive</span>
+                                <span class="dot">•</span>
+                                <span class="date">Updated Weekly</span>
+                            </div>
+                            <div class="premium-features">
+                                <span class="feature">✓ Ad-Free</span>
+                                <span class="feature">✓ Exclusive Q&A</span>
+                            </div>
+                            <p class="description">An exclusive interview series with Fortune 500 CEOs sharing their personal journeys, insights on leadership, and strategies that led to their success.</p>
+                        </div>
+                    </div>
+
+                    <!-- Hidden Premium Videos -->
+                    <div class="video-card premium hidden">
+                        <div class="video-thumbnail">
+                            <div class="duration">1:15:42</div>
+                            <iframe width="100%" height="150" src="./v11.mp4" frameborder="0" allowfullscreen></iframe>
+                            <span class="lock"><i class="fas fa-lock"></i> Premium</span>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Documentary: Inside Space Exploration</h3>
+                            <p class="channel">SpaceExplorers</p>
+                            <div class="stats">
+                                <span class="views">Premium Exclusive</span>
+                                <span class="dot">•</span>
+                                <span class="date">Limited Series</span>
+                            </div>
+                            <div class="premium-features">
+                                <span class="feature">✓ HDR Available</span>
+                                <span class="feature">✓ Multi-language</span>
+                            </div>
+                            <p class="description">This award-winning documentary takes you behind the scenes of the latest space missions with exclusive interviews from astronauts and mission control experts.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="load-more">See More Premium Content</button>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Stay Updated</h2>
+                    <p>Subscribe to our newsletter to get weekly updates on trending videos and exclusive content</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Video Hub</h3>
+                    <p>The best platform for viral and trending videos from around the world.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#viral">Most Viral</a></li>
+                        <li><a href="#trending">Most Viewed</a></li>
+                        <li><a href="#premium">Premium Content</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 Video Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const mainNav = document.querySelector('.main-nav');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+            mobileMenuBtn.classList.toggle('active');
+        });
+
+        // Theme Toggle
+        const themeToggle = document.querySelector('.theme-toggle');
+        const body = document.body;
+        
+        // Check for saved theme preference
+        const currentTheme = localStorage.getItem('theme');
+        if (currentTheme) {
+            body.classList.add(currentTheme);
+            updateThemeIcon();
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark-mode' : '');
+            updateThemeIcon();
+        });
+        
+        function updateThemeIcon() {
+            if (body.classList.contains('dark-mode')) {
+                themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+            } else {
+                themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+            }
+        }
+
+        // Load More Videos
+        document.querySelectorAll('.load-more').forEach(button => {
+            button.addEventListener('click', () => {
+                const section = button.closest('section');
+                const hiddenVideos = section.querySelectorAll('.video-card.hidden');
+                hiddenVideos.forEach(video => video.classList.remove('hidden'));
+                if (section.querySelectorAll('.video-card.hidden').length === 0) {
+                    button.style.display = 'none';
+                }
+            });
+        });
+
+        // Hide Preloader
+        window.onload = function() {
+            setTimeout(function(){
+                document.querySelector(".preloader").style.display = "none";
+            }, 1000);
+        };
+
+        // Filter tabs functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                // Here you would normally filter content based on the selected tab
+            });
+        });
+    </script>
+</body>
+</html>
